@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-body {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.left-img {
+    display: flex;
+    width: 35%;
+    
+    background-image: url(assets/casey-horner-space.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+        align-items: center;
+
+}
+
+.logo {
+
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    padding: 10px 0;
+    
+
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+}
+
+.right {
+    display: flex;
+    width: 50vw;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+    
+}
+
+.form-body {
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+
+}
